@@ -28,7 +28,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build
-        uses: Primetalk/jekyll-build-pages@v1
+        uses: primetalk/jekyll-build-pages@v1
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
   deploy:
@@ -48,7 +48,7 @@ To write to a different destination directory, match the inputs of both the `jek
 ```yaml
 steps:
   - name: Build
-    uses: Primetalk/jekyll-build-pages@v1
+    uses: primetalk/jekyll-build-pages@v1
     with:
       destination: "./output"
   - name: Upload artifact
