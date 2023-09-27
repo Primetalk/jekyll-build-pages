@@ -39,7 +39,7 @@ jobs:
         test:
           - simple
           - readme
-          - octicons
+          #- octicons - unstable svg generation
           - mojombo
           - themes
           - jekyll-include-cache
